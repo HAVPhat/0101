@@ -1,0 +1,37 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* navigation bar */
+
+ul {
+    list-style-type: none;
+    width: 400px;
+    height: 100px;
+    /* display: flex; */
+    /* text-align: center; */
+    overflow: hidden;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: red;
+    /* text-align: center; */
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* navigation bar */
+main {
+    padding: 14px;
+}
