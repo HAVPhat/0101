@@ -1,13 +1,24 @@
 * {
     font-family: Verdana;
 }
+body {
+    margin: 0;
+}
+#Main_Lesson{
+    margin-left: 20%;
+}
   
 header {
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
     padding-bottom: 20px;
     padding-top: 10px;
     background-color:  #FCF596;
     border-radius: 20px;
 }
+
 /* navigation bar */
 
 #site-header ul {
@@ -34,13 +45,14 @@ header {
 
 /* navigation bar */
 
-/* body */
+/* Heading */
 
 #Heading {
     text-align: center;
+    color: #FF4545;
 }
 
-/* body */
+/* Heading */
 
 /* icon-link */
 .fa-facebook {
@@ -53,3 +65,35 @@ header {
 
 
 /* icon-link */
+
+/* side-navigation */
+
+.sidenav {
+    position: absolute;
+    top: 10rem;
+    left: 0px;
+    right: 85%;
+    bottom: 0;
+    background: #FCF596;
+        border-top-right-radius: 20px;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #FF4545;
+    display: block;
+}
+  
+.sidenav a:hover {
+    color: #00ADB5;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* side-navigation */
